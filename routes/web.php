@@ -15,14 +15,14 @@ Route::get('/', function () {
     return view('views.welcome');
 });
 /*Empleados*/
-$router->get('/empleado', 'EmpleadoController@index');
-$router->get('/getEmpleados/{id}', 'EmpleadoController@getEmpleados');
-$router->post('/crearEmpleados', 'EmpleadoController@createEmpleado');
-$router->get('/crearEmpleados', 'EmpleadoController@createEmpleadoindex');
-$router->post('/actualizarEmpleados/{id}', 'EmpleadoController@updateEmpleado');
-$router->get('/actualizarEmpleados/{id}', 'EmpleadoController@updateEmpleadoindex');
-$router->post('/eliminarEmpleados/{id}', 'EmpleadoController@destroyEmpleado');
-$router->get('/eliminarEmpleados/{id}', 'EmpleadoController@destroyEmpleadoindex');
+$router->get('https://warm-escarpment-05440.herokuapp.com/empleado', 'EmpleadoController@index');
+$router->get('https://warm-escarpment-05440.herokuapp.com/getEmpleados/{id}', 'EmpleadoController@getEmpleados');
+$router->post('https://warm-escarpment-05440.herokuapp.com/crearEmpleados', 'EmpleadoController@createEmpleado');
+$router->get('https://warm-escarpment-05440.herokuapp.com/crearEmpleados', 'EmpleadoController@createEmpleadoindex');
+$router->post('https://warm-escarpment-05440.herokuapp.com/actualizarEmpleados/{id}', 'EmpleadoController@updateEmpleado');
+$router->get('https://warm-escarpment-05440.herokuapp.com/actualizarEmpleados/{id}', 'EmpleadoController@updateEmpleadoindex');
+$router->post('https://warm-escarpment-05440.herokuapp.com/eliminarEmpleados/{id}', 'EmpleadoController@destroyEmpleado');
+$router->get('https://warm-escarpment-05440.herokuapp.com/eliminarEmpleados/{id}', 'EmpleadoController@destroyEmpleadoindex');
 
 /*Empleos*/
 $router->get('/empleos', 'EmpleoController@index');
