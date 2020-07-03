@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('https://warm-escarpment-05440.herokuapp.com/', function () {
+Route::get('/', function () {
     return view('views.welcome');
 });
 /*Empleados*/
