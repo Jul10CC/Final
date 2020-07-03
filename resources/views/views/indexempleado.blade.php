@@ -107,13 +107,13 @@
                     <form method="post" action="{{url('cliente')}}">
                     </form>
                     <li class="nav-item">
-                        <a class="nav-link " href="http://localhost:8000/" id="registrar">Inicio</a>
+                        <a class="nav-link " href="https://warm-escarpment-05440.herokuapp.com/" id="registrar">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8000/empleado" id="beneficios">Empleados</a>
+                        <a class="nav-link" href="https://warm-escarpment-05440.herokuapp.com/empleado" id="beneficios">Empleados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="http://localhost:8000/empleos" id="contactenos">Empleos</a>
+                        <a class="nav-link " href="https://warm-escarpment-05440.herokuapp.com/empleos" id="contactenos">Empleos</a>
                     </li>
                 </ul>
             </div>
